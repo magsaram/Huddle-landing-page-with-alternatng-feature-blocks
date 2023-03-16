@@ -10,3 +10,108 @@
   --poppins: "Poppins", sans-serif;
   --openSans: "Open Sans", sans-serif;
 }
+body {
+  width: 100%;
+  font-family: var(--openSans);
+  color: var(--darkCyan);
+}
+header {
+  box-sizing: border-box;
+  padding-top: 31px;
+  width: 100%;
+  background-color: var(--paleCyan);
+  background-image: url(../images/bg-hero-mobile.svg);
+}
+nav {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 104px;
+}
+nav a {
+  padding: 5px 22px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--darkCyan);
+  text-decoration: none;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.144);
+  border-radius: 12px;
+}
+.head {
+  width: 80%;
+  margin: 80px auto 37px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.text p {
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.text a {
+  display: inline-block;
+  padding: 10px 60px;
+  margin-bottom: 56px;
+  background-color: var(--pink);
+  border-radius: 20px;
+  box-shadow: 0 3px 10px 0 #f5abe2;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+}
+.head img {
+  margin-bottom: 35px;
+  width: 100%;
+}
+main {
+  margin: 59px auto 229px;
+  width: 90%;
+}
+main div {
+  margin-bottom: 40px;
+  padding-top: 24px;
+  padding-bottom: 30px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
+  text-align: center;
+}
+main div img {
+  margin: 24px auto;
+  width: 70%;
+}
+main div h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+main div p {
+  margin: auto;
+  width: 75%;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--grayBlue);
+}
+footer {
+  width: 100%;
+  position: relative;
+  background-color: var(--darkCyan);
+  color: white;
+}
+.ready {
+  position: absolute;
+  width: 90%;
+  height: 176px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
+}
