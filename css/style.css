@@ -248,21 +248,28 @@ footer {
   }
   main {
     margin: 160px auto 344px;
-    width: 90%;
+    width: 80%;
   }
   .option {
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     padding-top: 53px;
     padding-bottom: 53px;
+    padding-right: 30px;
     text-align: left;
   }
   .option div {
-    width: 40%;
+    width: 43%;
+    margin-right: 10%;
+  }
+  main > div:first-of-type,
+  main > div:nth-of-type(3) {
+    flex-direction: row-reverse;
   }
   main div img {
-    margin: 24px auto;
+    margin: 24px 0;
     width: 440px;
   }
   main div h2 {
@@ -271,66 +278,62 @@ footer {
   }
   main div p {
     margin: 0;
-    width: 100%;
+    width: 80%;
     font-size: 18px;
     line-height: 27px;
   }
+  main > div:nth-of-type(2) div {
+    margin-left: 21%;
+    margin-right: -10%;
+  }
   footer {
     padding-bottom: 10px;
-    width: 100%;
-    position: relative;
-    background-color: var(--darkCyan);
-    color: white;
+    height: 418px;
   }
   .ready {
-    position: absolute;
-    top: -109px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    height: 176px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
-    text-align: center;
+    top: -184px;
+    width: 800px;
+    height: 280px;
   }
   .ready h2 {
-    margin: 41px auto 24px;
-    font-size: 18px;
-    color: var(--darkCyan);
+    margin: 60px auto 40px;
+    font-size: 32px;
+  }
+  .ready a {
+    font-size: 20px;
+    padding: 25px 100px;
+    border-radius: 40px;
   }
   .footer-wrap {
-    box-sizing: border-box;
-    padding-top: 120px;
-    width: 92%;
-    margin: 0 auto;
+    padding-top: 144px;
+    width: 80%;
   }
   .logo {
     margin-bottom: 20px;
-    width: 45%;
+    width: 20%;
+  }
+  .footer-wrap-inside {
+    display: flex;
+    justify-content: space-between;
+    height: 210px;
+  }
+  .address {
+    width: 25%;
   }
   .place,
   .phone,
   .mail {
     display: flex;
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 24px;
-  }
-  .place img,
-  .phone img,
-  .mail img {
-    height: 100%;
-    margin-right: 20px;
-  }
-  .place img {
-    margin-top: 5px;
+    width: 100%;
   }
   .menu {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 16px;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
+    height: 110px;
+    width: 30%;
   }
   .menu a {
     font-size: 14px;
