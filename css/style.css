@@ -215,6 +215,9 @@ footer {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.089);
     border-radius: 24px;
   }
+  nav a:hover {
+    color: hsl(208, 11%, 55%);
+  }
   .head {
     display: flex;
     justify-content: space-between;
@@ -241,6 +244,11 @@ footer {
     margin-bottom: 0;
     border-radius: 28px;
     font-size: 14px;
+    transition: 0.3s;
+  }
+  .text a:hover,
+  .ready a:hover {
+    background-color: #ff9adb;
   }
   .head img {
     margin-bottom: 60px;
@@ -344,6 +352,12 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+  }
+  .socials a:hover {
+    color: var(--pink);
+  }
+  .social:hover {
+    border: 1px solid var(--pink);
   }
   .frontend {
     font-size: 10px;
